@@ -8,14 +8,19 @@ Topics of Workshop:
   * Collection API
   * Apache POI Api
   * Some of the Google APIs
+  * Workshop activities
 * Core concepts, coding guidelines
 * A look at Sample Java Projects (big and small)
+ * Workshop activities
 * Use of Logging Frameworks in Java Programs
+ * Workshop activities reading, filtering Logs
+ * Knowledge of Log appenders
 * Design Patterns basics
 * Patterns that are commonly encountered
 * REST API
   * Usage and Testing
   * Role of REST API in a large application
+  * Workshop activities
 * Monolith and modular architecture
   * Case Studies
 * Frameworks in Java
