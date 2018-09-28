@@ -1,7 +1,7 @@
 # workshop
 
 Topics of Workshop: 
-* [Overiew](./Overview.md)
+* [Overiew](Overview.md)
 * Programming Language: Java
   * Syntax and coding guidelines
 * Use of API in Java
