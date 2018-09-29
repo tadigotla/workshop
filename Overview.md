@@ -1,1 +1,1 @@
-The workshop will start by familiarizing the Learners with most of the Development activities, tools, processes and challenges
+The aim of the workshop is to introduce the many aspects of development including the tools, processes and challenges. 
