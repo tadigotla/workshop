@@ -17,6 +17,8 @@ Topics of Workshop:
  * Knowledge of Log appenders
 * Design Patterns basics
 * Patterns that are commonly encountered
+* About Databases
+  * How does an application interact with DB
 * REST API
   * Usage and Testing
   * Role of REST API in a large application
