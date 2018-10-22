@@ -4,6 +4,7 @@ Topics of Workshop:
 * [Overiew](Overview.md)
 * Programming Language: Java
   * Syntax and coding guidelines
+* [Maven](Maven.md)
 * Use of API in Java
   * Collection API
   * Apache POI Api
