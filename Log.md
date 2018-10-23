@@ -25,3 +25,6 @@
 
 
 ### References:
+1. [Process vs Thread](https://neharustagiblog.wordpress.com/2014/09/26/program-vs-process-vs-thread-vs-task/)
+1. [Process vs Thread](https://www.thecrazyprogrammer.com/2018/01/difference-process-thread.html)
+1. [Linux](https://www.linux.com/learn/complete-beginners-guide-LInux%20)
