@@ -1,5 +1,5 @@
 ### Day1: Introduction to Cloud IDE
-> Team was introduced to Cloud IDE and its usage. Cloud workspaces were crated for the entire team totaling to 26 people on multiple servers.
+> Team was introduced to Cloud IDE and its usage. Cloud workspaces were created for the entire team.
 ### Day2: Building and executing few Java Samples
 > The team was asked to write small programs on the IDE some of which are:
 1. Write a program to check if a given number is Prime
@@ -10,3 +10,18 @@
 1. A sample maven project and its folder structure
 1. Adding project dependencies to a maven project
 1. Executing a Java program using maven
+1. Role of OS in executing a program. A look into processes and how they run with the help of OS
+### Day 4: 
+1. What is going on here --> `javac MyProgram.java`, `mvn package` or `java MyProgram`
+
+
+### List of Commands executed so far:
+1. `javac MyProgram.java`
+2. `java MyProgram`
+3. `sdk install maven`
+4. `mvn --version`
+5. `mvn package`
+6. `mvn exec:java -Dexec.mainClass="com.sample.App"`
+
+
+### References:
