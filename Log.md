@@ -8,4 +8,5 @@
 ### Day 3: Maven Project
 1. Introduction to Maven and installing maven in the workspace using sdkman
 1. A sample maven project and its folder structure
-1. 
+1. Adding project dependencies to a maven project
+1. Executing a Java program using maven
