@@ -28,3 +28,5 @@
 1. [Process vs Thread](https://neharustagiblog.wordpress.com/2014/09/26/program-vs-process-vs-thread-vs-task/)
 1. [Process vs Thread](https://www.thecrazyprogrammer.com/2018/01/difference-process-thread.html)
 1. [Linux](https://www.linux.com/learn/complete-beginners-guide-LInux%20)
+1. [A Commandline Primer](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+1. [Linux Boot Process](https://opensource.com/article/17/2/linux-boot-and-startup)
