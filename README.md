@@ -1,7 +1,15 @@
 # workshop
 [Daily Log & References](Log.md)
+### Practice Exercises
+1. Write a Program to check if a given number is a Prime
+2. Write a program to calculate the average of numbers. Read the numbers from Standard Input
+3. Program to reverse every word in a String. Remember that input should comprise of a String with multiple words which need to be reversed. And you need not reverse the alphabets within a single word
+4. Write a program to find duplicate Characters in a String. Read the input as a  _*command line argument*_
+5. List all the directories in a given folder recursively
+6. Navigate a directory and list all the files in it recursively
+7. Write a program to read an Excel Workbook and print the content of the first worksheet to the console
 
-Topics we intend to cover in the Workshop: 
+#### Topics we intend to cover in the Workshop: 
 * [Overiew](Overview.md)
 * Programming Language: Java
   * Syntax and coding guidelines
