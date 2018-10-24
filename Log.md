@@ -32,4 +32,5 @@
 1. [A Commandline Primer](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 1. [Linux Boot Process](https://opensource.com/article/17/2/linux-boot-and-startup)
 1. [Environment Variables](https://www.guru99.com/linux-environment-variables.html)
+1. [JAVA CLASSPATH](http://kevinboone.net/classpath.html)
 1. [PATH vs CLASSPATH](http://www.java67.com/2012/08/what-is-path-and-classpath-in-java-difference.html)
