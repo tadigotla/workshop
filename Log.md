@@ -13,6 +13,7 @@
 1. Role of OS in executing a program. A look into processes and how they run with the help of OS
 ### Day 4: 
 1. What is going on here --> `javac MyProgram.java`, `mvn package` or `java MyProgram`
+1. The role of Environment Variables like `PATH`, `JAVA_HOME` & `CLASSPATH`
 
 
 ### List of Commands executed so far:
@@ -30,3 +31,4 @@
 1. [Linux](https://www.linux.com/learn/complete-beginners-guide-LInux%20)
 1. [A Commandline Primer](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 1. [Linux Boot Process](https://opensource.com/article/17/2/linux-boot-and-startup)
+1. [Environment Variables](https://www.guru99.com/linux-environment-variables.html)
