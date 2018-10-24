@@ -1,6 +1,7 @@
 # workshop
+[Daily Log & References](Log.md)
 
-Topics of Workshop: 
+Topics we intend to cover in the Workshop: 
 * [Overiew](Overview.md)
 * Programming Language: Java
   * Syntax and coding guidelines
