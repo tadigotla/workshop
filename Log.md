@@ -12,8 +12,9 @@
 1. Executing a Java program using maven
 1. Role of OS in executing a program. A look into processes and how they run with the help of OS
 ### Day 4: 
-1. What is going on here --> `javac MyProgram.java`, `mvn package` or `java MyProgram`
+1. What is going on here --> `javac MyProgram.java`, `mvn package` or `java MyProgram`. How a command is propogated to the right program by the OS
 1. The role of Environment Variables like `PATH`, `JAVA_HOME` & `CLASSPATH`
+1. First look at a Unit Test Case using JUnit
 
 
 ### List of Commands executed so far:
@@ -28,7 +29,7 @@
 ### References:
 1. [Process vs Thread](https://neharustagiblog.wordpress.com/2014/09/26/program-vs-process-vs-thread-vs-task/)
 1. [Process vs Thread](https://www.thecrazyprogrammer.com/2018/01/difference-process-thread.html)
-1. [Linux](https://www.linux.com/learn/complete-beginners-guide-LInux%20)
+1. [Linux for Beginners](https://www.linux.com/learn/complete-beginners-guide-LInux%20)
 1. [A Commandline Primer](https://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
 1. [Linux Boot Process](https://opensource.com/article/17/2/linux-boot-and-startup)
 1. [Environment Variables](https://www.guru99.com/linux-environment-variables.html)
