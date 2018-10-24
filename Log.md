@@ -24,6 +24,7 @@
 4. `mvn --version`
 5. `mvn package`
 6. `mvn exec:java -Dexec.mainClass="com.sample.App"`
+7. `mvn test`
 
 
 ### References:
