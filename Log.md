@@ -15,6 +15,8 @@
 1. What is going on here --> `javac MyProgram.java`, `mvn package` or `java MyProgram`. How a command is propogated to the right program by the OS
 1. The role of Environment Variables like `PATH`, `JAVA_HOME` & `CLASSPATH`
 1. First look at a Unit Test Case using JUnit
+### Day 5:
+1. Assignment on building a program to write content to an Excel File using Apache POI api
 
 
 ### List of Commands executed so far:
