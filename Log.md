@@ -17,6 +17,9 @@
 1. First look at a Unit Test Case using JUnit
 ### Day 5:
 1. Assignment on building a program to write content to an Excel File using Apache POI api
+### Day 6:
+1. JDBC Api Sample using in-memory H2 database. 
+1. Test case for validating the ExcelReader program.
 
 
 ### List of Commands executed so far:
