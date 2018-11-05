@@ -20,7 +20,10 @@
 ### Day 6:
 1. JDBC Api Sample using in-memory H2 database. 
 1. Test case for validating the ExcelReader program.
-
+### Day 7:
+1. HTTP Primer, sample program that makes a `GET` request to a web service.
+1. Test case development for the WebClient functionality.
+1. Groovy Introduction
 
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
