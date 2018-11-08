@@ -24,7 +24,10 @@
 1. HTTP Primer, sample program that makes a `GET` request to a web service.
 1. Test case development for the WebClient functionality.
 1. Groovy Introduction
-
+### Day 8:
+1. Continuation of Intro to Groovy. Rewriting few Java samples to groovy. 
+1. A look at gradle build file
+1. A look at test cases using Spock
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
