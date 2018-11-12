@@ -28,6 +28,11 @@
 1. Continuation of Intro to Groovy. Rewriting few Java samples to groovy. 
 1. A look at gradle build file
 1. A look at test cases using Spock
+
+### Day 9:
+1. The need for Web Application
+1. Running serverside code on the Java Platform. Java `Servlet`
+1. Creating a Web Application using maven archetypes.
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
@@ -36,7 +41,15 @@
 5. `mvn package`
 6. `mvn exec:java -Dexec.mainClass="com.sample.App"`
 7. `mvn test`
-
+8. Create web application using maven archetypes
+```
+mvn archetype:generate -DgroupId=com.sample \
+                   -DartifactId=sample-webapp \
+                   -Dversion=1.0-SNAPSHOT \
+                   -DarchetypeArtifactId=maven-archetype-webapp \
+                   -DinteractiveMode=false 
+```
+9. mvn jetty:run
 
 ### References:
 1. [Process vs Thread](https://neharustagiblog.wordpress.com/2014/09/26/program-vs-process-vs-thread-vs-task/)
