@@ -28,11 +28,14 @@
 1. Continuation of Intro to Groovy. Rewriting few Java samples to groovy. 
 1. A look at gradle build file
 1. A look at test cases using Spock
-
 ### Day 9:
 1. The need for Web Application
 1. Running serverside code on the Java Platform. Java `Servlet`
 1. Creating a Web Application using maven archetypes.
+### Day 10:
+1. Modifying the HelloWorld servlet to read and return data from Excel as JSON
+1. Can the servlet be tested?
+1. Recap
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
