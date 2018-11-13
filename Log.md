@@ -34,8 +34,9 @@
 1. Creating a Web Application using maven archetypes.
 ### Day 10:
 1. Modifying the HelloWorld servlet to read and return data from Excel as JSON
-1. Can the servlet be tested?
 1. Recap
+1. Introducing QueryString and reading input with Request Parameters
+1. Can the servlet be tested?
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
