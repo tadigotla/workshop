@@ -1,36 +1,60 @@
 package com.sample;
 
+import java.util.List;
+import java.util.ArrayList;
 // Import required java libraries
 import java.io.*;
+import java.util.Map;
 import javax.servlet.*;
 import javax.servlet.http.*;
+import org.json.JSONObject;
 
 // Extend HttpServlet class
 public class HelloWorldServlet extends HttpServlet {
 
-   private String message;
+    private String message;
 
-   public void init() throws ServletException {
-      // Do required initialization
-      message = "Hello World! It is  Monday today!!";
-   }
+    public void init() throws ServletException {
+        // Do required initialization
+        message = "Hello World! It is  Monday today!!";
+    }
 
-   public void doGet(HttpServletRequest request, HttpServletResponse response)
-      throws ServletException, IOException {
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("The query string is: " + request.getQueryString());
+        String queryString = request.getQueryString();
 
-          System.out.println("Writing to Standard Out");
+        java.lang.String[] params = queryString.split("&");
+        String fileName = "";
 
-      // Set response content type
-      response.setContentType("application/json");
-    //   response.setContentType("text/html");
+        for(int i = 0; i < params.length; i++){
+            System.out.println("param: " + params[i]);
 
-      // Actual logic goes here.
-      PrintWriter out = response.getWriter();
-    //   out.println("<h1>" + message + "</h1>");
-      out.println("{\"test\":\"anyting\"}");
-   }
+            String[] variables = params[i].split("=");
+            System.out.println("Variable "+ variables[0] + " has value of "+ variables[1]);
+            if(variables[0].equalsIgnoreCase("fileName")){
+                fileName = variables[1];
+            }
+        }
 
-   public void destroy() {
-      // do nothing.
-   }
+        System.out.println("Found value for fileName " + fileName);
+
+        response.setContentType("application/json");
+        PrintWriter out = response.getWriter();
+
+        Map<String, Object> excelData = ExcelReader.readExcel(new File("/projects/workshop/"+fileName));
+        System.out.println("After reading excel data");
+        //out.println("{\"Hello\":\"World\"}");
+
+        JSONObject json = new JSONObject();
+
+        for(Map.Entry<String, Object> entry: excelData.entrySet()){
+            json.put(entry.getKey(), String.valueOf(entry.getValue()));
+        }
+
+        out.println(json.toString());
+    }
+
+    public void destroy() {
+        // do nothing.
+    }
 }
