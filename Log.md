@@ -38,7 +38,7 @@
 1. Introducing QueryString and reading input with Request Parameters
 1. Can the servlet be tested?
 ### Day 11:
-1. Testing the behaviour of Servlet
+1. Validating the Servlet functionality using a TestCase
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
