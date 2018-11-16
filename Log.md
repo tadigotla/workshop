@@ -39,6 +39,8 @@
 1. Can the servlet be tested?
 ### Day 11:
 1. Validating the Servlet functionality using a TestCase
+### Day 12:
+1. SSH Protocol
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
