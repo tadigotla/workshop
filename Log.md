@@ -40,6 +40,11 @@
 ### Day 11:
 1. Validating the Servlet functionality using a TestCase
 ### Day 12:
+#### Commonly used Linux Commands
+1. cat
+1. head
+1. tail
+1. grep
 1. SSH Protocol
 1. Verifying of running processes and port verification
 ### List of Commands executed so far:
