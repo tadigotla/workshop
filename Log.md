@@ -41,6 +41,7 @@
 1. Validating the Servlet functionality using a TestCase
 ### Day 12:
 1. SSH Protocol
+1. Verifying of running processes and port verification
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
