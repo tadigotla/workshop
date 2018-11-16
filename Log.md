@@ -41,12 +41,12 @@
 1. Validating the Servlet functionality using a TestCase
 ### Day 12:
 #### Commonly used Linux Commands
-1. cat
-1. head
-1. tail
-1. grep
-1. SSH Protocol
-1. Verifying of running processes and port verification
+1. cat: Command that displays the whole contents of the file. Can be made to show one page using `more`
+1. head: Command that displays first few lines of a file
+1. tail: Command that displays last few lines of a file
+1. grep: Command to filter and can take input by piping from another command `ps -ef | grep java`
+1. SSH Protocol `ssh -p <ssh-port> user@server-ip`
+1. Verifying of running processes and port verification `netstat -tulpn` & `ps -ef`
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
