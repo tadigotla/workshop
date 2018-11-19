@@ -63,7 +63,7 @@ mvn archetype:generate -DgroupId=com.sample \
                    -DarchetypeArtifactId=maven-archetype-webapp \
                    -DinteractiveMode=false 
 ```
-9. mvn jetty:run
+9. `mvn jetty:run`
 
 ### References:
 1. [Process vs Thread](https://neharustagiblog.wordpress.com/2014/09/26/program-vs-process-vs-thread-vs-task/)
