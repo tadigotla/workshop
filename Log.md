@@ -11,8 +11,8 @@
 1. Adding project dependencies to a maven project
 1. Executing a Java program using maven
 1. Role of OS in executing a program. A look into processes and how they run with the help of OS
+<img src="/images/maven_project.png" width="250">
 
-![Structure](./images/maven_project.png =100x300)
 ### Day 4: 
 1. What is going on here --> `javac MyProgram.java`, `mvn package` or `java MyProgram`. How a command is propogated to the right program by the OS
 1. The role of Environment Variables like `PATH`, `JAVA_HOME` & `CLASSPATH`
@@ -34,6 +34,8 @@
 1. The need for Web Application
 1. Running serverside code on the Java Platform. Java `Servlet`
 1. Creating a Web Application using maven archetypes.
+<img src="/images/servlet_app.png" width="250">
+
 ### Day 10:
 1. Modifying the HelloWorld servlet to read and return data from Excel as JSON
 1. Recap
@@ -54,6 +56,7 @@
 1. Spring IoC: Introduction
 ### Day 14:
 1. Spring IoC: A working Sample
+<img src="/images/spring_sample.png" width="250">
 
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
