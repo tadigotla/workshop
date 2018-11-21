@@ -47,6 +47,12 @@
 1. grep: Command to filter and can take input by piping from another command `ps -ef | grep java`
 1. SSH Protocol `ssh -p <ssh-port> user@server-ip`
 1. Verifying of running processes and port verification `netstat -tulpn` & `ps -ef`
+### Day 13:
+1. Interfaces in Java
+1. Spring IoC: Introduction
+### Day 14:
+1. Spring IoC: A working Sample
+
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
