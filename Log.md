@@ -11,6 +11,8 @@
 1. Adding project dependencies to a maven project
 1. Executing a Java program using maven
 1. Role of OS in executing a program. A look into processes and how they run with the help of OS
+
+![Structure](./images/maven_project.png =100x300)
 ### Day 4: 
 1. What is going on here --> `javac MyProgram.java`, `mvn package` or `java MyProgram`. How a command is propogated to the right program by the OS
 1. The role of Environment Variables like `PATH`, `JAVA_HOME` & `CLASSPATH`
