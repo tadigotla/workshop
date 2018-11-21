@@ -8,7 +8,7 @@
     <bean id="strutsQuizMaster" class="com.sample.spring.StrutsQuizMaster"></bean>
     <bean id="quizProgram" class="com.sample.spring.QuizProgram">
         <property name="quizMaster">
-            <ref local="springQuizMaster"/>
+            <ref local="strutsQuizMaster"/>
         </property>
     </bean>
 </beans>
