@@ -61,6 +61,9 @@
 1. Introduction to Git
 1. Git local repository, working directory, remote repository
 1. Git tracked files, commits and messages
+### Day 16: Groovy Revisited
+### Day 17: Groovy continued
+
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
@@ -70,13 +73,13 @@
 6. `mvn exec:java -Dexec.mainClass="com.sample.App"`
 7. `mvn test`
 8. Create web application using maven archetypes
-```
+<pre>
 mvn archetype:generate -DgroupId=com.sample \
                    -DartifactId=sample-webapp \
                    -Dversion=1.0-SNAPSHOT \
                    -DarchetypeArtifactId=maven-archetype-webapp \
                    -DinteractiveMode=false 
-```
+</pre>
 9. `mvn jetty:run`
 
 ### References:
