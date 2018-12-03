@@ -57,11 +57,14 @@
 ### Day 14:
 1. Spring IoC: A working Sample
 <img src="/images/spring_sample.png" width="250">
+
 ### Day 15:
 1. Introduction to Git
 1. Git local repository, working directory, remote repository
 1. Git tracked files, commits and messages
+
 ### Day 16: Groovy Revisited
+
 ### Day 17: Groovy continued
 
 ### List of Commands executed so far:
