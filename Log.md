@@ -67,6 +67,8 @@
 
 ### Day 17: Groovy continued
 
+### Day 18: Introduction to Selenium Api
+
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
