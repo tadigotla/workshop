@@ -99,3 +99,4 @@ mvn archetype:generate -DgroupId=com.sample \
 1. [Servlets Intro](https://beginnersbook.com/2013/05/servlet-tutorial/)
 1. [Git Tutorial](http://noodle.med.yale.edu/hdtag/notes/git_tut.pdf)
 1. [Chrome Driver](https://chromedriver.storage.googleapis.com/index.html?path=2.44/)
+1. [Web Driver Notes](https://www.guru99.com/accessing-forms-in-webdriver.html#1)
