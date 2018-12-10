@@ -69,6 +69,8 @@
 
 ### Day 18: Introduction to Selenium Api
 
+### Day 19: Introduction to Geb 
+
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
@@ -86,7 +88,14 @@ mvn archetype:generate -DgroupId=com.sample \
                    -DinteractiveMode=false 
 </pre>
 9. `mvn jetty:run`
+10. Installing chrome related libraries on cloud workspace
+<pre>
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+apt-get update && apt-get install -yq google-chrome-stable
 
+apt-get install -yq xvfb imagemagick
+</pre>
 ### References:
 1. [Process vs Thread](https://neharustagiblog.wordpress.com/2014/09/26/program-vs-process-vs-thread-vs-task/)
 1. [Process vs Thread](https://www.thecrazyprogrammer.com/2018/01/difference-process-thread.html)
