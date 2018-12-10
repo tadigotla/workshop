@@ -71,6 +71,8 @@
 
 ### Day 19: Introduction to Geb 
 
+### Day 20: Testing web app using Geb on Cloud Workspace. Running Chrome in Headless mode
+
 ### List of Commands executed so far:
 1. `javac MyProgram.java`
 2. `java MyProgram`
