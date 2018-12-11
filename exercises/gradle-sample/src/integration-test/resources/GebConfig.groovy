@@ -13,7 +13,8 @@ environments {
     chromeHeadless {
         driver = {
             ChromeOptions o = new ChromeOptions()
-            o.addArguments('headless')
+            o.setBinary("/usr/bin/google-chrome");
+            o.addArguments(['--headless', '--no-sandbox'])
             new ChromeDriver(o)
         }
     }
