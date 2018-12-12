@@ -16,7 +16,8 @@ class VideoGameSpec extends GebSpec {
     //https://allegro.tech/2015/05/automated-tests-with-geb-spock-and-groovy.html
 
     def setupSpec(){
-
+        System.setProperty("webdriver.chrome.driver", "/projects/chromedriver");
+        baseUrl = 'http://ide2.vivasa.in:35434'
     }
 
     def cleanupSpec(){
@@ -24,28 +25,20 @@ class VideoGameSpec extends GebSpec {
     }
 
     def setup() {
-        System.setProperty("geb.build.baseUrl", "http://ide2.vivasa.in:34979");
     }
 
     def cleanup() {
+
     }
 
     void "Test the homepage"() {
+
         given: "I am at the game list page"
-            go '/game/index'
+            go '/video-game'
 
         expect: "The title to be a known value"
-            $('h1').text() == 'Game List0'
+            title == 'Vivasa Demo'
     }
-
-    void "TEst 2"(){
-
-    }
-
-    void "test 3"(){
-
-    }
-
 
     RestBuilder restBuilder() {
         new RestBuilder()
