@@ -38,6 +38,27 @@ class VideoGameSpec extends GebSpec {
 
         expect: "The title to be a known value"
             title == 'Vivasa Demo'
+
+        when:
+            to GameListPage
+        then:
+            currentUrl.endsWith("/game/index")
+        and:
+            title == 'Game List'
+
+        when:
+            createButton.click()
+        then:
+            at NewGamePage
+
+        when:
+            name = "${System.currentTimeMillis()}"
+            publisher = "Ubisoft"
+            platform = "X360"
+            createButton.click()
+        then:
+            $('div.message').text().startsWith("Game")
+            $('li.fieldcontain div',2).text() == 'Ubisoft'
     }
 
     RestBuilder restBuilder() {
