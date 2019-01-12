@@ -99,6 +99,7 @@ apt-get update && apt-get install -yq google-chrome-stable
 apt-get install -yq xvfb imagemagick
 </pre>
 ### References:
+1. [Operating Systems](https://hackernoon.com/heres-what-you-need-to-know-about-operating-systems-a40603e74b8d)
 1. [Process vs Thread](https://neharustagiblog.wordpress.com/2014/09/26/program-vs-process-vs-thread-vs-task/)
 1. [Process vs Thread](https://www.thecrazyprogrammer.com/2018/01/difference-process-thread.html)
 1. [Linux for Beginners](https://www.linux.com/learn/complete-beginners-guide-LInux%20)
